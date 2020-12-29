@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+
+body{
+    font-family: sens-serif;
+    font-family: 'Hanalei Fill', cursive;
+    color: #fff;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    /* CSS for Fixed menu */
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+	background-color: #fff;
+    box-shadow: 0px 5px 8px -10px #000;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu{
+    width: 50%;
+    height: 60px;
+    padding: 20px;
+    background-color: black;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu ul li{
+    flex-basis: calc(20% - 10px);
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.hero_section{
+    height: 200px;
+    background-color: burlywood;
+    margin: 20px 0;
+
+    margin-top: 80px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-basis: calc( 25% - 15px);
+    height: 150px;
+    background-color: crimson;
+    margin-bottom: 20px;
+    text-align: center;
+	padding: 20px;
+}
+
+.left{
+    flex-basis: calc(70% - 10px);
+    height: 300px;
+    background-color: darkblue;
+    padding: 20px;
+}
+
+.right{
+    padding: 20px;
+    flex-basis: calc(30% - 10px);
+    height: 300px;
+    background-color: rgb(70, 70, 158);
+}
+
+.right ul{
+    list-style: none;
+}
+
+.post{
+    height: 60px;
+	padding: 10px;
+    background-color: rgb(84, 201, 221);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 20px;
+	padding: 20px;
+    height: 60px;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+}
